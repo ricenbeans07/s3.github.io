@@ -1,133 +1,361 @@
-<html lang="en">
-<head>
-
-  <title>The Order - #1 online food delivery app</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</head>
-
-<style>
-  
-.a {
-  background-color: #000000
-</style>
-
-
-
+<!DOCTYPE html>
 <html>
-<title></title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
 <style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans"}
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: grey;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
 </style>
-<body class="w3-light-grey">
+</head>
 <body>
 
-  <!-- Header -->
-  <header class="w3-container w3-center w3-padding-48 w3-red">
-    <h1 class="w3-xxxlarge"><b> The Order</b></h1>
-    <h2><span class="w3-tag">Made In Ranchi</span></h2>
-  </header>
+<p></p>
 
-<button onclick="getLocation()">Turn on Location</button>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+<style>h1.solid {border-style: solid;}
+div.gallery {
+  border: 1px solid #ccc;
+}
 
-<p id="demo"></p>
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+    <style>
+
+      h2.solid {border-style: solid;}
+
+        h2.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+  h2.small {
+  font-variant: small-caps;
+}
+
+  h2 {
+  text-shadow: 2px 2px 2px red;
+}
+
+  h2 {
+  text-decoration: underline;
+}
+
+  h2 {
+  font-family: "Sofia";
+  font-size: 22px;
+}
+
+h2 {
+  color: ;
+  text-align: center;
+}
+
+div{
+  color: white;
+}
+
+
+
+</style>
+
+<h2>Wallpapers</h2>
+
+
+<div class="responsive">
+  <div class="gallery">
+    
+      <img src="http://getwallpapers.com/wallpaper/full/3/c/2/198353.jpg" width="600" height="400">
+    
+    <div class="desc">Night sky</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5U4K0E4iDCJ7hPt-hy0GIAHaEK%26pid%3DApi&f=1" width="600" height="400">
+    
+    <div class="desc">Wall</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZZheWmMcTWslwT3pWr_wgwHaEK%26pid%3DApi&f=1" alt="Northern Lights" width="600" height="400">
+    
+    <div class="desc">Dragon!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.vpVsfG-T6NtCreLtGzlr1gHaEK%26pid%3DApi&f=1" alt="Mountains" width="600" height="400">
+    
+    <div class="desc">blurred colors</div>
+  </div>
+</div>
+
+
+
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+  <style>
+
+
+img{
+  border: 2px solid black; 
+ }
+
+img {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(5deg);
+}
+
+
+body {
+  background-color: grey;
+  background-image: linear-gradient(grey, black);
+}
+
+body{
+  font-family: sofia;
+}
+
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+
+  ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+} 
+
+.a {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.a span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.a:hover span {
+  padding-right: 25px;
+}
+
+.a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<ol><a style="vertical-align:middle" href = "file:///D:/Pages/Upload.html">Click here to Upload your own wallpapers</a></ol>
+<ol><a style="vertical-align:middle" href = "file:///D:/Pages/Login.html">Click here to login</a></ol>
+<ol><a style="vertical-align:middle" href="file:///D:/Pages/About%20us.html">About us</a></ol>
+
+<style>
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+   border-radius: 25px;
+  background: #73AD21;
+  padding: 15px; 
+  width: 200px;
+  height: 150px;
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+ <style>
+   textarea {
+  width: 100px;
+  height: 100px;                                            
+  background: red;
+  transition: width 2s, height 2s;
+}
+
+textarea:hover {
+  width: 300px;
+  height: 300px;
+}
+
+ </style>
+
+<p><strong></strong>Give feedback on customization or for other questions</p>
+
+<form>
+  <textarea>Some text...</textarea>
+</form>
+
+<ol><a href="file:///D:/Pages/Feedback%20request!.html">Submit</a></ol>
+
+</style>
 
 <script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition, showError);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-
-function showError(error) {
-  switch(error.code) {
-    case error.PERMISSION_DENIED:
-      x.innerHTML = "User denied the request for Geolocation."
-      break;
-    case error.POSITION_UNAVAILABLE:
-      x.innerHTML = "Location information is unavailable."
-      break;
-    case error.TIMEOUT:
-      x.innerHTML = "The request to get user location timed out."
-      break;
-    case error.UNKNOWN_ERROR:
-      x.innerHTML = "An unknown error occurred."
-      break;
-  }
+function myFunction() {
+  document.getElementById("demo").innerHTML = "1*, 2*, 3*, 4*, 5*";
 }
 </script>
 
+<p id="demo"></p>
 
-<div class="container">
-<p>Restraunts :</p>
-</div>
-
-<style>
-
+<style> button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 </style>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-    	<img src="https://b.zmtcdn.com/data/pictures/3/18388053/3d806806f2728ba207b4b2f325032a50.jpg" width="300" height="200">
-      <h2>The Best</h2>
-      <a href="file:///E:/Pages/fd/The%20Best.html">Open Menu</a>
-      <p>The Best is a family friendly vegetarian restraunt 
-      which has a large menu to chose from</p>
-    </div>
-    <div class="col-sm-4">
-    	<img src="https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/ng0sp3z6yskznvbnabmv" width="300" height="200">
-      <h2>Fassos</h2>
-      <a href="file:///E:/Pages/fd/Fassos.html">Open Menu</a>
-      <p>An Indian Fast food chain restraunt which offers 
-      a great amounts of wraps and Plates.</p>
-    </div>
-    <div class="col-sm-4">
-    	<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/jskj3ofhhtjizlvxlqvq" width="300" height="200">
-      <h2>Ruin House</h2>
-      <a href="file:///E:/Pages/fd/Ruin%20House.html">Open Menu</a>
-      <p>Classy</p>
-    </div>
-     <div class="col-sm-4">
-    	<img src="https://download.logo.wine/logo/KFC/KFC-Logo.wine.png" width="300" height="200">
-      <h2>KFC</h2>
-      <a href="file:///E:/Pages/fd/KFC.html#menu">Open Menu</a>
-        <p>Colonel's wings near you. Order now!</p>
-    </div>
-    <div class="col-sm-4">
-    	<img src="https://www.southgate-plaza.com/wp-content/uploads/2018/03/dominos.jpg" width="300" height="200">
-      <h2>Domino's Pizza</h2>
-      <a href="file:///E:/Pages/fd/Domino's%20Pizza.html">Open Menu</a>
-      <p>Surplus amounts of pizza, sides, beverages.</p>
-    </div>
-    <div class="col-sm-4">
-    	<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ae4jbmd4rd9sxvewf0jz" width="300" height="200">
-      <h2>Dumpling Momo</h2>
-      <a href="file:///E:/Pages/fd/Dumpling%20Momos.html">Open Menu </a>
-      <p>A taste haven for momo lovers.</p>
-    </div>
 
-     </div>
-</div>
+<button type="button" onclick="myFunction()">Rank it</button>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+
+</head>
+<body>
+
 
 </body>
+</html>
