@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
 
@@ -19,7 +18,6 @@
 
 
 
-<!DOCTYPE html>
 <html>
 <title></title>
 <meta charset="UTF-8">
@@ -133,4 +131,3 @@ function showError(error) {
 </div>
 
 </body>
-</html>
